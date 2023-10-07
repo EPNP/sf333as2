@@ -69,6 +69,7 @@ class GameViewModel : ViewModel() {
 
 
     private fun addValueToBoard(cellNo: Int) {
+
         if (boardItems[cellNo] != BoardCellValue.NONE) {
             return
         }
