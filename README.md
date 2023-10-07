@@ -2,10 +2,10 @@
 - Android App: Tic Tac Toe Game with Kotlin and Jetpack Compose
   
 Player X is controlled by the computer. The computer follows the following rules for gameplay:
-- (a) If there is a winning move available, the computer should place its mark in that position.
-- (b) If there is no winning move for the computer but the opponent player O has a potential winning move in the next turn, the computer should place its mark to block the opponent.
-- (c) If there are no immediate winning or blocking moves, the computer should place its mark in the center.
-- (d) If none of the above conditions apply, the computer should place its mark randomly in an available spot.
+ 1. If there is a winning move available, the computer should place its mark in that position.
+ 2. If there is no winning move for the computer but the opponent player O has a potential winning move in the next turn, the computer should place its mark to block the opponent.
+ 3. If there are no immediate winning or blocking moves, the computer should place its mark in the center.
+ 4. If none of the above conditions apply, the computer should place its mark randomly in an available spot.
 
 When the game is restarted, players take turns starting with player O and then the computer X.
 
